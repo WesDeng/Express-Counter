@@ -451,21 +451,21 @@ input.checkbox:checked:after {
 /*--placeholder-color--*/
 
 ::-webkit-input-placeholder {
-    color: #000;
+    color: #666;
 }
 
 :-moz-placeholder {
     /* Firefox 18- */
-    color: #000;
+     color: #666;
 }
 
 ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #000;
+     color: #666;
 }
 
 :-ms-input-placeholder {
-    color: #000;
+     color: #666;
 }
 
 /*-- //placeholder-color --*/
@@ -592,3 +592,21 @@ input.checkbox:checked:after {
 }
 
 /*--//responsive--*/
+
+div.search{padding:30px 0}
+#form2{position:relative;width:300px;margin:0 auto}
+
+.d1{background:#a3d0c3; background-color:transparent;}.d1 input{width:100%;height:42px;padding-left:10px;border:2px solid #7ba7ab;border-radius:5px;outline:none;background:#f9f0da;color:#9e9c9c}.d1 button{position:absolute;top:0;right:0;width:42px;height:42px;border:none;background:#7ba7ab;border-radius:0 5px 5px 0;cursor:pointer}.d1 button:before{content:"\f002";font-family:FontAwesome;font-size:16px;color:#f9f0da}.d2{background:#dabb52}.d2 input,.d2 button{border:none;outline:none;border-radius:3px}.d2 input{width:100%;height:42px;background:#f9f0da;padding-left:15px}.d2 button{height:26px;width:26px;position:absolute;top:8px;right:8px;background:#f15b42;cursor:pointer}.d2 button:before{content:"\f105";font-family:FontAwesome;color:#f9f0da;font-size:20px;font-weight:700}
+.d3{background:#f9f0da; background-color:transparent;}
+.d3 form{background:#a3d0c3;}
+.d3 input,.d3 button{border:none;outline:none;background:0 0;}
+.d3 input{width:100%;height:42px;padding-left:15px;}
+.d3 button{height:42px;width:42px;position:absolute;top:0;right:0;cursor:pointer}
+.d3 button:before{content:"\f002";font-family:FontAwesome;font-size:16px;color:#f9f0da}
+.d4{background:#f15b42; background-color:transparent;}
+.d4 form{background:#f9f0da;}
+.d4 input,.d4 button{border:none;outline:none;background:0 0;}
+.d4 input{width:100%;height:42px;padding-left:15px}
+.d4 button{height:42px;width:42px;position:absolute;top:0;right:0;cursor:pointer}
+.d4 button:before{content:"\f178";font-family:FontAwesome;font-size:20px;color:#be290e}
+.d5{background:#683b4d}.d5 input,.d5 button{outline:none;background:0 0}.d5 input{width:100%;height:42px;padding-left:15px;border:3px solid #f9f0da}.d5 button{border:none;height:42px;width:42px;position:absolute;top:0;right:0;cursor:pointer}.d5 button:before{content:"\f002";font-family:FontAwesome;font-size:16px;color:#f9f0da}.d5 input:focus{border-color:#311c24}.d6{background:#b46381}.d6 form{height:42px}.d6 input{height:100%;width:0;padding:0 42px 0 15px;border:none;border-bottom:2px solid transparent;outline:none;background:0 0;transition:.4s cubic-bezier(0,.8,0,1);position:absolute;top:0;right:0;z-index:2}.d6 input:focus{width:300px;z-index:1;border-bottom:2px solid #f9f0da}.d6 button{background:#683b4d;border:none;height:42px;width:42px;position:absolute;top:0;right:0;cursor:pointer}.d6 button:before{content:"\f002";font-family:FontAwesome;font-size:16px;color:#f9f0da}.d7{background:#7ba7ab}.d7:after{content:"";clear:both;display:table}.d7 form{width:auto;float:right;margin-right:30px}.d7 input{width:250px;height:42px;padding-left:15px;border-radius:42px;border:2px solid #324b4e;background:#f9f0da;outline:none;position:relative;transition:.3s linear}.d7 input:focus{width:300px}.d7 button{width:42px;height:42px;background:0 0;border:none;position:absolute;top:-2px;right:0}.d7 button:before{content:"\f002";font-family:FontAwesome;color:#324b4e}
