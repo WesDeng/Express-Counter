@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+	<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content=""
+	/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+	<!-- bg effect -->
+	<div id="bg">
+		<canvas></canvas>
+		<canvas></canvas>
+		<canvas></canvas>
+	</div>
+	<!-- //bg effect -->
+	<!-- title -->
+	<h1>Welcome To Login</h1>
+	<!-- //title -->
+	<!-- content -->
+	<div class="sub-main-w3">
+		<form action="#" method="post">
+			<h2>Login Now
+				<i class="fas fa-level-down-alt"></i>
+			</h2>
+			<div class="form-style-agile">
+				<label>
+					<i class="fas fa-user"></i>
+					Username
+				</label>
+				<input placeholder="Username" name="Name" type="text" required id="name">
+			</div>
+			<div class="form-style-agile">
+				<label>
+					<i class="fas fa-unlock-alt"></i>
+					Password
+				</label>
+				<input placeholder="Password" name="Password" type="password" required id="password">
+			</div>
+
+			<input type="submit" value="Log In" id="submit">
+		</form>
+	</div>
+	<!-- //content -->
+
+
+
+	<!-- Jquery -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- //Jquery -->
+
+	<!-- effect js -->
+	<script src="js/canva_moving_effect.js"></script>
+	<!-- //effect js -->
+<script>
+
+window.onload=function(){
+document.getElementById("name").value=""
+document.getElementById("password").value=""
+}
+document.getElementById("submit").onclick=function(e){
+	 e.preventDefault();
+	
+	if(document.getElementById("name").value=="DET2019"&&document.getElementById("password").value=="123456"){	
+		window.open("item.html","_self")
+	}
+	else{
+alert("Error in account or password entry")
+document.getElementById("name").value=""
+document.getElementById("password").value=""
+	}
+}
+</script>
+</body>
+
+</html>
