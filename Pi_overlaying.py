@@ -108,9 +108,11 @@ item_sound_lib = {"coke":"coke.wav",
             "pen":"pen.wav",
             "clock":"clock.wav"}
 
-attri_sound_lib = {}
+attri_sound_lib = {'fresh':'fresh.wav',
+                    'red':'dream.wav',
+                    'messy':'game.wav'}
 
-drum_sound_lib = {}
+drum_sound_lib = {'drum1.wav','drum2.wav','drum3.wav'}
 
 def main():
 
