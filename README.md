@@ -3,24 +3,26 @@ Project1 "Perception" for "Designing Emerging Technology" by Professor Eric Paul
 
 -------Software Process Description-------
 
-For sound file pre-processing: 
+For **sound file pre-processing**: 
+
 
    Use helper functions created in Proj1.ipynb. See SoundGenerator.ipynb for more.
    
 
-For Raspberry Pi code:
+For **Raspberry Pi code**:
+
 
    See Pi_executing.py. Add channels for more objects. 
    
    Pi_overlaying.py is for loop petal effect, not practical currently due to audio enviroment conflicting.
    
 
-For generating poem:
+For **generating poem**:
 
    https://www.poem-generator.org.uk/ Choose Rhyming Couplets.
    
 
-For web demo:
+For **web demo**:
 
    Open index.html in WebDemo. 
    
